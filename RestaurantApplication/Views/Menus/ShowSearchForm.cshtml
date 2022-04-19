@@ -1,0 +1,23 @@
+﻿<h4>Search for an item</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResult">
+            <div class="form-group">
+                <label name="SearchDish" class="control-label">Dish</label>
+                <input name="SearchDish" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="SearchPrice" class="control-label">Price</label>
+                <input name="SearchPrice" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
